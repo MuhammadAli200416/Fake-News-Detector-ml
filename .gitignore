@@ -1,0 +1,21 @@
+# --- GLOBAL IGNORES ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- PYTHON (Backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+*.joblib
+
+# --- NODE (Frontend - just in case) ---
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
