@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AlertCircle, CheckCircle, Info } from "lucide-react";
 
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://fake-news-detector-ml.onrender.com/predict";
 
 export default function FakeNewsDetector() {
   const [text, setText] = useState("");
